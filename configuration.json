@@ -1,0 +1,31 @@
+{
+    "conf": {"layout_configuration": [
+            {
+                "name": "Teams",
+                "color": "purple",
+                "buttons":[
+                    {
+                        "id": 4,
+                        "content": "Keycode.CONTROL,Keycode.SHIFT,Keycode.SEMICOLON",
+                        "mode": 0,
+                        "latch": 1,
+                        "color": "red"
+                    }
+                ]
+            }
+
+        ],
+
+        // Do we really need this?
+        "colors":[
+            {"red": "(255,0,0)"},
+            {"green": "(0,255,0)"},
+            {"blue": "(0,0,255)"},
+            {"yellow": "(255,255,0)"},
+            {"orange": "(255,103,0)"},
+            {"purple": "(84,22,250)"},
+            {"base": "(64,64,64)"},    
+            {"black": "(0,0,0)"}
+        ]
+    }
+}

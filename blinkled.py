@@ -56,7 +56,7 @@ while True:
 
         if not held[0]:
             kbd.send(Keycode.COMMAND, Keycode.SPACE)
-            layout.write("Chro;e") #; correspond to the m key on french apple keyboard
+            layout.write("Chro;e") #; corresponds to the m key on french apple keyboard
             kbd.send(Keycode.ENTER)
             held[0] = 1
 

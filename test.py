@@ -1,8 +1,11 @@
-import board
-import digitalio
+import json
 
-led = digitalio.DigitalInOut(board.LED)
-led.direction = digitalio.Direction.OUTPUT
+def read_configuration():
+    f = open('configuration.json',)
+    data = json.load(f)
+    for i in data['conf']:
+        print(i)
 
-while true:
-    led.value = True
+    f.close()
+
+read_configuration()
